@@ -1,0 +1,99 @@
+/* Nav */
+.navbar {
+    border-bottom: 2px solid rgba(174, 50, 51, 0.5);
+}
+.top_main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.small_link{
+    padding-right: 12.5px;
+}
+.main_link {
+    text-decoration: none;
+    color: #AE3233;
+    padding-right: 48px;
+}
+.language {
+    padding-right: 20px;
+}
+
+.navBar_menu {
+    padding-top: 45px;
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+.navBar_menu li{
+    display: inline; 
+    padding-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4A4A4A;
+}
+
+
+.diet_btn {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 13px 79px;
+    border-radius: 10px;
+    border: 1px solid #AE3233;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+}
+.diet_btn:hover {
+    background-color: #AE3233;
+    color: white;
+    transition: 0.25s;
+}
+
+
+
+/* Baner */
+.baner {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid #AE3233;;
+}
+.baner_content {
+    display: flex;
+    justify-content: space-between;
+}
+.baner_header {
+    display: inline;
+    font-size: 18px;
+    font-weight: 500;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.baner_link {
+    text-decoration: none;
+    color: #AE3233;
+}
+.baner_link:hover {
+    color: black;
+}
+.baner_link span p {
+    display: inline;
+    padding-right: 12px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* Introduction */
+
+.introduction {
+    padding-top: 50px;
+}
+
+
+.pointOfExp img, h4 {
+    display: inline;
+}
