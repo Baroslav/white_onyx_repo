@@ -1,4 +1,10 @@
-/* Nav */
+
+.main_them_text{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+\/* Nav */
 .navbar {
     border-bottom: 2px solid rgba(174, 50, 51, 0.5);
 }
@@ -66,6 +72,7 @@
     justify-content: space-between;
 }
 .baner_header {
+    padding-left: 50px;
     display: inline;
     font-size: 18px;
     font-weight: 500;
@@ -73,6 +80,7 @@
     margin-bottom: 0px;
 }
 .baner_link {
+    padding-right: 50px;
     text-decoration: none;
     color: #AE3233;
 }
@@ -92,8 +100,95 @@
 .introduction {
     padding-top: 50px;
 }
-
-
-.pointOfExp img, h4 {
-    display: inline;
+.intro_header {
+    padding-top: 30px;
+    font-size: 48px;
+    font-weight: 500;
 }
+.intro_text{
+    padding-top: 20px;
+}
+.exp {
+    padding-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pointOfExp {
+    width: 50%;
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+.pointOfExp img   {
+    display: inline;
+    padding: 0px;
+}
+.PointOfExp_content {
+    display: inline-block;
+    padding-left: 12px;
+}
+.PointOfExp_content h4 {
+    color: #AE3233;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.PointOfExp_content p {
+    padding-top: 2px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.pointOfExp1 {
+    background: url(/img/measure1.png) left center no-repeat ;
+    padding-left: 72px;
+} 
+.pointOfExp2 {
+    background: url(/img/measure2.png) left center no-repeat ;
+    padding-left: 72px;
+} 
+.pointOfExp3 {
+    background: url(/img/measure3.png) left center no-repeat ;
+    padding-left: 72px;
+} 
+.pointOfExp4 {
+    background: url(/img/measure4.png) left center no-repeat ;
+    padding-left: 72px;
+} 
+
+/* Who Is it */
+
+.whoIsit {
+    padding-top: 80px;
+}
+
+.who {
+    padding-top: 71px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #AE3233;
+}
+.who_header {
+    padding-top: 20px;
+    padding-bottom: 24px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.whoText {
+    padding-top: 24px;
+}
+.moreAboutLink {
+    text-decoration: none;
+}
+.moreAbout p  {
+ display: inline;
+ text-decoration: none;
+ color: #AE3233;
+ font-size: 22px;
+ font-weight: 500;
+ padding-right: 18px;
+}
+.moreAbout p:hover {
+    color:black;
+}
+
